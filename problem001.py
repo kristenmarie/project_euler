@@ -3,11 +3,11 @@
 Find the sum of all the multiples of 3 or 5 below 1000."""
 
 # def multiples_sum():
-#   total = 0
-#   for i in range(1,1000):
-#     if i % 3 == 0 or i % 5 == 0:
-#       total += i
-#   return total
+#     total = 0
+#     for i in range(1,1000):
+#         if i % 3 == 0 or i % 5 == 0:
+#           total += i
+#     return total
 
 def multiples_sum():
-  return sum(i for i in range(1000) if (i % 3 == 0 or i % 5 == 0))
+    return sum(i for i in range(1000) if (i % 3 == 0 or i % 5 == 0))
