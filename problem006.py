@@ -8,3 +8,5 @@ def sum_square_difference():
     numbers = range(1,101)
     total_sum_squared = sum(numbers) ** 2
     return total_sum_squared - sqares_sum
+
+    
